@@ -12,6 +12,8 @@
 		CB8939021A590EB6001F120E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8939011A590EB6001F120E /* ViewController.m */; };
 		CB8939051A590EB6001F120E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB8939031A590EB6001F120E /* Main.storyboard */; };
 		CB8939071A590EB6001F120E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB8939061A590EB6001F120E /* Images.xcassets */; };
+		CB8939101A590F25001F120E /* TypeWriterEffectLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB89390F1A590F25001F120E /* TypeWriterEffectLabel.m */; };
+		CB8939121A591310001F120E /* typewriter.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB8939111A591310001F120E /* typewriter.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,9 @@
 		CB8939011A590EB6001F120E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CB8939041A590EB6001F120E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB8939061A590EB6001F120E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB89390E1A590F25001F120E /* TypeWriterEffectLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeWriterEffectLabel.h; sourceTree = "<group>"; };
+		CB89390F1A590F25001F120E /* TypeWriterEffectLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeWriterEffectLabel.m; sourceTree = "<group>"; };
+		CB8939111A591310001F120E /* typewriter.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = typewriter.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +61,7 @@
 		CB8938F81A590EB6001F120E /* TypeWriterEffect */ = {
 			isa = PBXGroup;
 			children = (
+				CB89390D1A590F07001F120E /* TypeWriterEffectLabel */,
 				CB8938FD1A590EB6001F120E /* AppDelegate.h */,
 				CB8938FE1A590EB6001F120E /* AppDelegate.m */,
 				CB8939001A590EB6001F120E /* ViewController.h */,
@@ -70,10 +76,20 @@
 		CB8938F91A590EB6001F120E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CB8939111A591310001F120E /* typewriter.wav */,
 				CB8938FA1A590EB6001F120E /* Info.plist */,
 				CB8938FB1A590EB6001F120E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB89390D1A590F07001F120E /* TypeWriterEffectLabel */ = {
+			isa = PBXGroup;
+			children = (
+				CB89390E1A590F25001F120E /* TypeWriterEffectLabel.h */,
+				CB89390F1A590F25001F120E /* TypeWriterEffectLabel.m */,
+			);
+			name = TypeWriterEffectLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB8939121A591310001F120E /* typewriter.wav in Resources */,
 				CB8939051A590EB6001F120E /* Main.storyboard in Resources */,
 				CB8939071A590EB6001F120E /* Images.xcassets in Resources */,
 			);
@@ -147,6 +164,7 @@
 			files = (
 				CB8939021A590EB6001F120E /* ViewController.m in Sources */,
 				CB8938FF1A590EB6001F120E /* AppDelegate.m in Sources */,
+				CB8939101A590F25001F120E /* TypeWriterEffectLabel.m in Sources */,
 				CB8938FC1A590EB6001F120E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,8 +262,6 @@
 		CB89390B1A590EB6001F120E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TypeWriterEffect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -255,8 +271,6 @@
 		CB89390C1A590EB6001F120E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TypeWriterEffect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

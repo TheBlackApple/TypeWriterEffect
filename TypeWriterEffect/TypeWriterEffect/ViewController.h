@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#define kWidth [UIScreen mainScreen].bounds.size.width
+#define kHeight [UIScreen mainScreen].bounds.size.height
 @interface ViewController : UIViewController
 
 

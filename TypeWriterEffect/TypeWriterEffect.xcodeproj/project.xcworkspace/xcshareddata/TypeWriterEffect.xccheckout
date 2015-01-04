@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FE948F51-4CA2-439C-92D6-76136A516BF4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TypeWriterEffect</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7EF81307A4C68C65972493057CAC8A6D5A26F5E6</key>
+		<string>https://github.com/TheBlackApple/TypeWriterEffect.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TypeWriterEffect/TypeWriterEffect.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7EF81307A4C68C65972493057CAC8A6D5A26F5E6</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/TheBlackApple/TypeWriterEffect.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7EF81307A4C68C65972493057CAC8A6D5A26F5E6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7EF81307A4C68C65972493057CAC8A6D5A26F5E6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TypeWriterEffect</string>
+		</dict>
+	</array>
+</dict>
+</plist>
